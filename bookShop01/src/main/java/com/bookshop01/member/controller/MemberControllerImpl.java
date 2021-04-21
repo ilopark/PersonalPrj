@@ -106,4 +106,10 @@ public class MemberControllerImpl extends BaseController implements MemberContro
 		resEntity =new ResponseEntity(result, HttpStatus.OK);
 		return resEntity;
 	}
+
+	@Override
+	@RequestMapping("/member/contact")
+	public String contact_page() throws Exception {
+		return "member/contact";
+	}
 }
