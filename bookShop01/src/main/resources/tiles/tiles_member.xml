@@ -12,6 +12,11 @@
          <put-attribute name="title" value="회원 가입 페이지" />
          <put-attribute name="body" value="/WEB-INF/views/member/memberForm.jsp" />
       </definition>
+      
+      <definition name="/member/contact" extends="baseLayout">
+         <put-attribute name="title" value="찾아 오시는길" />
+         <put-attribute name="body" value="/WEB-INF/views/member/contact.jsp" />
+      </definition>
   
 </tiles-definitions>
 

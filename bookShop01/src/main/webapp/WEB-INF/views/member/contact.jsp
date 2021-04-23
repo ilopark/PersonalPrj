@@ -24,8 +24,8 @@
 <body>
 <div class="container">
 	<section id="support" class="cau">
-		<hr width ="15%" color="black" >
-		<h3>ABOUT US</h3>
+		<hr width ="15%" color="black" align="center" >
+		<h2>ABOUT US</h2>
 	</section>
 		<h4>
 			<strong>▌ 주소 및 연락처</strong><br />
@@ -34,7 +34,7 @@
 		<br />
 		<h5>
 			업체명
-			<p>- SONGPRING</p>
+			<p>- BookTopia</p>
 		</h5><br />
 		<br />
 		<br />
@@ -68,7 +68,7 @@
 		</h4><br />
 		<br />
 		<br />
-		<p><strong>SONGPRING</strong>에 찾아오시는 방법은 아래와 같습니다.</p><br />
+		<p><strong>BOOKTOPIA</strong>에 찾아오시는 방법은 아래와 같습니다.</p><br />
 		<br />
 		<br />
 		<h5>
@@ -78,7 +78,7 @@
 		<br />
 		<br />
 		<div id="map" style="width:100%;height:400px;" ></div>
-		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4bfb90a1dd1458dd205c08437f7b3176"></script>
+		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=03e12eae2725d01982c59b74e2d56080"></script>
 		<script>
 			var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 			    mapOption = { 

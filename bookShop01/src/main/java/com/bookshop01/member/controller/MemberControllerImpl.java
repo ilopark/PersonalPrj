@@ -108,8 +108,8 @@ public class MemberControllerImpl extends BaseController implements MemberContro
 	}
 
 	@Override
-	@RequestMapping("/member/contact")
-	public String contact_page() throws Exception {
-		return "member/contact";
+	@RequestMapping(value="/contact.do" ,method = RequestMethod.GET)
+	public String contact_page(){
+		return "/member/contact";
 	}
 }
